@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="rasterDBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="rasterDBEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="testTable" EntityType="rasterDBModel.testTable" />
+  </EntityContainer>
+  <EntityType Name="testTable">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="sensor" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="path" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="true" />
+    <Property Name="rstime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Type="String" Name="rowID" Nullable="false" />
+    <Property Type="String" Name="colID" Nullable="false" />
+    <Property Type="String" Name="cloundAmount" Nullable="false" />
+  </EntityType>
+</Schema>

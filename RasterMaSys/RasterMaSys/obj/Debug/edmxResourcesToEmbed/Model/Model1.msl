@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="rasterDBModelStoreContainer" CdmEntityContainer="rasterDBEntities">
+    <EntitySetMapping Name="rasterTable">
+      <EntityTypeMapping TypeName="rasterDBModel.rasterTable">
+        <MappingFragment StoreEntitySet="rasterTable">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sensor" ColumnName="sensor" />
+          <ScalarProperty Name="path" ColumnName="path" />
+          <ScalarProperty Name="rstime" ColumnName="rstime" />
+          <ScalarProperty Name="rowID" ColumnName="rowID" />
+          <ScalarProperty Name="colID" ColumnName="colID" />
+          <ScalarProperty Name="cloudage" ColumnName="cloudage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
