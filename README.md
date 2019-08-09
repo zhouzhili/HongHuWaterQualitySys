@@ -8,6 +8,7 @@
 </li>
 </ul>
 ## 项目相关截图
+
 * 1.主界面
 
 	![主界面](https://raw.githubusercontent.com/zhouzhili/HongHuWaterQualitySys/master/readmeImg/main.png)
